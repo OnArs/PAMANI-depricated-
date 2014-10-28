@@ -57,4 +57,5 @@ mysql_query("UPDATE line SET fail=1, dt=NOW() WHERE id_line IN ({$lines_fail})")
 mysql_close($db);
 
 
+
 //@file_put_contents('/var/www/pamani/pamani.ru/log_runner.txt', '['.date("d-m-y H:i:s").'] ['.$count.'] '.$argv[1]. PHP_EOL, FILE_APPEND);
