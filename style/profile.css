@@ -1,0 +1,347 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/4fdd6ab/images/shared/noise-2.png") repeat scroll 0 0 #EDEEEF;
+    margin: 0;
+    padding: 0;
+    font: 13px/20px OpenSans Light,sans-serif;
+}
+a {
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+}
+.profile_picture {
+    height: 100px;
+    width: 100px;
+}
+.psevdoLink {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.psevdoLink:hover {
+    text-decoration: none;
+}
+#header {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #333333;
+    background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/4fdd6ab/images/profile/profile-header-gradient.png"), url("//d36xtkk24g8jdx.cloudfront.net/bluebar/4fdd6ab/images/profile/noise-black.png");
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-size: auto auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+    margin: 5px auto;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+	width: 330px;
+}
+#boxProfile {
+    height: 110px;
+    margin: 0 auto;
+    width: 310px;
+}
+#boxProfile > .profile_picture {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    padding: 5px;
+}
+#boxProfile > div {
+    color: #FFFFFF;
+    border-radius: 3px;
+    float: right;
+    height: 100px;
+    width: 180px;
+}
+#boxStat {
+    background: none repeat scroll 0 0 #9b59b6;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    margin: 0 auto 30px;
+    padding: 15px 30px;
+    width: 310px;
+}
+#boxLiked {
+    background: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/4fdd6ab/images/shared/noise-2.png") repeat scroll 0 0 #E0E1E2;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 auto 30px;
+    padding: 0 30px 20px;
+    width: 310px;
+}
+#boxLiked > a > img {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #C0C0C0;
+    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.1);
+    margin: 15px 0 0;
+    padding: 0;
+    text-align: left;
+}
+#boxFirst {
+    background: none repeat scroll 0 0 #27ae60;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    display: none;
+    margin: 0 auto 30px;
+    padding: 15px 30px;
+    text-align: justify;
+    width: 310px;
+}
+#boxFirst .title {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+#boxError {
+    background: none repeat scroll 0 0 #E74C3C;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    display: none;
+    margin: 0 auto 30px;
+    padding: 15px 30px;
+    text-align: justify;
+    width: 310px;
+}
+#boxError .title {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+#boxEmail {
+    background: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/4fdd6ab/images/shared/noise-2.png") repeat scroll 0 0 #E0E1E2;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 100px auto 0;
+    padding: 20px;
+    width: 400px;
+}
+#boxEmail .title {
+    font: 18px/20px OpenSans Regular,sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#boxEmail .desc {
+
+}
+#boxEmail input[type="text"], #boxEmail input[type="password"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C6C6C6;
+    font: 20px OpenSans Light,sans-serif;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+}
+#boxEmail input[type="submit"] {
+    background: none repeat scroll 0 0 #E74C3C;
+    border: 1px solid #D04F26;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: OpenSans Bold,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-shadow: -1px -1px 0 #D04F26;
+    text-transform: uppercase;
+    width: 100%;
+}
+#boxAccountChange {
+    display: block;
+    margin: 30px auto 0;
+    width: 370px;
+}
+#boxAddNewAccountButton {
+    margin: 0 auto 30px;
+    width: 370px;
+    display: block;
+    text-align: center;
+}
+#boxAddNewAccountButton span {
+    background: url('https://cdn2.iconfinder.com/data/icons/facebook-svg-icons-1/64/friedn_added-20.png') no-repeat 0px 0px;
+    padding: 0 0 0 25px;
+    display: inline-block;
+}
+#boxAddNewAccount {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    height: 95px;
+    left: 50%;
+    margin: -45px 0 0 -230px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    width: 420px;
+    z-index: 3;
+    text-align: center;
+    font-size: 17px;
+}
+#yesAddNewAccount {
+    background: none repeat scroll 0 0 #27ae60;
+    cursor: pointer;
+    color: #FFF;
+    float: left;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+}
+#noAddNewAccount {
+    background: none repeat scroll 0 0 #E74C3C;
+    cursor: pointer;
+    color: #FFF;
+    float: right;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+}
+#boxBack {
+    display: none;
+    position: fixed;
+    background: #000;
+    opacity: 0.65;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    z-index: 1;
+}
+#boxSettings {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    height: 500px;
+    left: 50%;
+    margin: -250px 0 0 -185px;
+    padding: 0 10px;
+    position: fixed;
+    top: 50%;
+    width: 350px;
+    z-index: 2;
+}
+#boxSettings .title {
+    color: #BDC3C7;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0 20px;
+    text-transform: uppercase;
+}
+#boxSettings .desc {
+
+}
+#boxSettings a {
+	color: #2c3e50;
+}
+#boxSettings input[type="submit"] {
+    background: none repeat scroll 0 0 #2ECC71;
+    border: 1px solid #27AE60;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: OpenSans Bold,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: -1px -1px 0 #27AE60;
+    text-transform: uppercase;
+    width: 100%;
+}
+#boxSettings input[type="text"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C6C6C6;
+    font: 11px OpenSans Light,sans-serif;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+#boxSettings textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C6C6C6;
+    font-family: Tahoma;
+    font-size: 14px;
+	height: 200px;
+    margin-bottom: 20px;
+    padding: 5px;
+	resize: none;
+    width: 100%;
+}
+ul {
+    list-style: square outside none;
+    margin: 10px 0 0;
+    padding: 0 15px;
+}
+li {
+
+}
+
+/* Бокс оплаты start */
+#boxPay {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    height: 360px;
+    left: 50%;
+    margin: -200px 0 0 -230px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    width: 420px;
+    z-index: 3;
+}
+.payVar {
+    height: 55px;
+    position: relative;
+}
+.payhit {
+    left: -45px;
+    position: absolute;
+    top: 1px;
+}
+.payOld {
+    color: #BDC3C7;
+    left: 0;
+    position: absolute;
+    text-decoration: line-through;
+    top: 25px;
+}
+.payPrice {
+    font-size: 18px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.payLong {
+    left: 86px;
+    position: absolute;
+    top: 3px;
+}
+.paySurp {
+    color: #C0392B;
+    left: 180px;
+    position: absolute;
+    top: 13px;
+}
+.payVar input {
+    background: none repeat scroll 0 0 #27ae60;
+    border: medium none;
+    color: #FFFFFF;
+	cursor: pointer;
+    font-size: 13px;
+    height: 35px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.payVar input:hover {
+	background: none repeat scroll 0 0 #2ecc71;
+}
+/* Бокс оплаты end */
