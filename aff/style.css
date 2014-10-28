@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+    background: none repeat scroll 0 0 #3498DB;
+    color: #2C3E50;
+    font: 16px Tahoma;
+}
+ul {
+    list-style: square inside;
+}
+#wrap {
+    margin: 50px auto;
+    padding: 20px;
+    width: 500px;
+}
+#login {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 20px 20px 0;
+}
+#login input {
+    border: 1px solid #ECF0F1;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+}
+#login input[type="submit"] {
+    background: none repeat scroll 0 0 #2ECC71;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#muchSeo {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 20px;
+    margin-top: 20px;
+}
+#logo {
+    color: #FFFFFF;
+    height: 30px;
+}
+#logo > span {
+    color: #FFFFFF;
+    float: left;
+    font-size: 50px;
+    padding: 0 20px;
+}
+#logo > a {
+    color: #FFFFFF;
+    float: right;
+    padding: 20px 20px 0 0;
+}
+#head {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-top: 20px;
+    padding: 20px;
+}
+#head > label {
+    color: #c0392b;
+    margin-bottom: 10px;
+}
+#info {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-top: 20px;
+    padding: 20px;
+}
+#info > label {
+    color: #d35400;
+    margin-bottom: 10px;
+}
+#body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-top: 20px;
+    padding: 20px;
+}
+#body > label {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+span, label {
+	display: block;
+}
+.payLine {
+    clear: both;
+    height: 20px;
+}
+.payLine .left {
+    float: left;
+    width: 225px;
+}
+.payLine .center {
+	float: left;
+}
+.payLine .right {
+	float: right;
+}

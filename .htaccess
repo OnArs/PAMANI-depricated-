@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteRule ^help$ /pages/help.php [L]
+RewriteRule ^faq$ /pages/faq.php [L]
+RewriteRule ^dogovor$ /pages/dogovor.php [L]
+
+RewriteRule ^profile$ /profile.php [L]
+RewriteRule ^profile-manager$ /profile-manager.php [L]
+
+RewriteRule ^reg$ /auth-reg.php [L]
+RewriteRule ^login$ /auth-login.php [L]
+RewriteRule ^reset$ /auth-reset.php [L]
+
+redirect /faq.php /pages/faq.php
+redirect /help.php /pages/help.php

@@ -1,0 +1,21 @@
+a {color:#646875;font-size:14px}
+a:hover {color:#e06f1d}
+
+.wrap {margin:0 auto;width:412px}
+.error {position:absolute;margin-top:-20px;padding:30px 15px;width:382px;color:#fff;font-size:16px;text-align:center;background:#ec5458}
+.logo {display:block;margin:50px auto;width:137px;height:35px;background:url(../images/logo.png) no-repeat}
+
+/* Форма */
+#login-window {background:#fff;border:1px #e1e2e5 solid;overflow:hidden;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;box-shadow:1px 1px 5px rgba(155,159,171,0.1);-webkit-box-shadow:1px 1px 5px rgba(155,159,171,0.1);-moz-box-shadow:1px 1px 5px rgba(155,159,171,0.1)}
+#head-win {padding-top:25px;height:45px;color:#50535a;font-size:18px;text-align:center;font-family:'pfdindisplaypro-medium';border-bottom:1px #e2e2e2 solid;background:#fafafa;box-shadow:0 1px 6px rgba(0,0,0,0.06);-webkit-box-shadow:0 1px 6px rgba(0,0,0,0.06);-moz-box-shadow:0 1px 6px rgba(0,0,0,0.06)}
+#login-window form {padding:25px 45px}
+#login-window form label span, #adinfo span {color:#e11a1f}
+#login-window form .loginInput {display:block;margin:4px 0 22px;padding:0 8px;width:320px;height:36px;color:#7e7e7e;border:1px #d7d7d7 solid;background:#fff;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px}
+#login-window form .loginInput:focus {border:1px #f38b3f solid}
+#login-window form input[type=submit] {width:320px;height:48px;color:#fff;font-size:19px;font-family:'pfdindisplaypro-medium';text-transform:uppercase;cursor:pointer;text-shadow:1px 1px 0 #e2600e;border:none;border-bottom:1px #c56022 solid;border-radius:9px;-webkit-border-radius:9px;-moz-border-radius:9px;background:#f38d40;background:-o-linear-gradient(top, #f5a045, #f1793a);background:-moz-linear-gradient(top, #f5a045, #f1793a);background:-webkit-linear-gradient(top, #f5a045, #f1793a);background:-ms-linear-gradient(top, #f5a045, #f1793a)}
+#login-window form input[type=submit]:hover {border-bottom:1px #cc571c solid;background:#f17828;background:-o-linear-gradient(top, #fa8221, #e76c30);background:-moz-linear-gradient(top, #fa8221, #e76c30);background:-webkit-linear-gradient(top, #fa8221, #e76c30);background:-ms-linear-gradient(top, #fa8221, #e76c30)}
+#login-window form input[type=submit]:active {box-shadow:inset 1px 1px 7px #c35817;-webkit-box-shadow:inset 1px 1px 7px #c35817;-moz-box-shadow:inset 1px 1px 7px #c35817}
+#login-link {padding:0 45px 25px}
+.link-left {float:left}
+.link-right {float:right}
+#adinfo {padding:16px 25px;color:#36383e;font-size:15px;color:#36383e;background:#dadce2}
